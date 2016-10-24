@@ -1,0 +1,1 @@
+json.partial! "tecnicas/tecnica", tecnica: @tecnica

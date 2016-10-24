@@ -1,0 +1,1 @@
+json.array! @tecnicas, partial: 'tecnicas/tecnica', as: :tecnica
