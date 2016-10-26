@@ -5,6 +5,7 @@ class TecnicasController < ApplicationController
   # GET /tecnicas.json
   def index
     @tecnicas = Tecnica.all
+    render json: @tecnicas
   end
 
   # GET /tecnicas/1
